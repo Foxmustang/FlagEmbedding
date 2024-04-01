@@ -1,2 +1,2 @@
-from .modeling import BGEM3Model, BGEM3ForInference, EncoderOutput
-from .trainer import BiTrainer
+from FlagEmbedding.FlagEmbedding.BGE_M3.modeling import BGEM3Model, BGEM3ForInference, EncoderOutput
+from FlagEmbedding.FlagEmbedding.BGE_M3.trainer import BiTrainer

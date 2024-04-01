@@ -7,7 +7,7 @@ import datasets
 from transformers import PreTrainedTokenizerFast, BatchEncoding, DataCollatorWithPadding, XLMRobertaForMaskedLM, is_torch_npu_available
 from torch.utils.data import DataLoader
 from functools import partial
-from FlagEmbedding.BGE_M3 import BGEM3ForInference
+from FlagEmbedding.FlagEmbedding.BGE_M3.modeling import BGEM3ForInference
 
 
 def _transform_func(examples: Dict[str, List],
